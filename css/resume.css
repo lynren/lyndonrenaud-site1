@@ -64,14 +64,6 @@ h1 {
 	font-kerning: auto;
 }
 
-div.meta p {
-  display: block;
-  font-size: 1.23rem; line-height: 1.5em;
-  font-weight: bold;
-  margin-top: 30px; margin-bottom: 30px;
-  font-family: 'Karla';
-}
-
 h2 {
   margin-bottom: 0.2em;
 }
@@ -81,8 +73,6 @@ h3 {
 }
 
 article {
-  
-  line-height: 1.85rem;
   letter-spacing: -0.035rem;
 }
 

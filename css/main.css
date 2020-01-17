@@ -6,7 +6,6 @@ html {
 
 body {
   font-weight: 400;
-  background-color: #fcfcfc;
   color: #222;
   /* border-right: 2px solid #398ad5; */
   /* border-left: 2px solid #398ad5; */
@@ -25,18 +24,6 @@ header {
   font-weight: 400; letter-spacing: -0.035rem;
   padding: 10px 0;
   margin-bottom: 0;
-  color: black;
-}
-
-header a:link, header a:visited {
-  text-decoration: none;
-  /* color: #8071b8; */
-  color: #b41017;
-}
-
-header a:hover {
-  text-decoration: underline #060609;
-  color: #060609;
 }
 
 header span.back-arrow {
@@ -44,13 +31,13 @@ header span.back-arrow {
   width: 20px;
 }
 
-header span.navbar {
+header span#navbar {
   display: inline;
   font-size: 1.5rem; 
   font-weight: 700; letter-spacing: -0.035rem;
 }
 
-header span.navbar img{
+header span#navbar img{
   height: 1.3rem;
 }
 
@@ -67,25 +54,23 @@ h2 {
   margin-bottom: 0.2em;
 }
 
-article {
+main {
   line-height: 1.85rem;
   letter-spacing: -0.035rem;
 }
+main p{
+  margin-top: 0.5em;
+}
 
-article a:link {
-  border-bottom: 1px solid grey;
+body{
+  background-color: #fcfcfc;
+}
+
+a{
+  color: #b41017;
   text-decoration: none;
 }
 
-article a {
-  color: #555;
-}
-
-article a:hover {
-  color: red;
-  border-bottom-color: gray;
-}
-
-article p{
-  margin-top: 0.5em;
+a:hover, img:hover{
+  border-bottom: 1px solid #b41017;
 }

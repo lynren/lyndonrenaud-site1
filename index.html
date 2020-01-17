@@ -4,29 +4,35 @@
   <meta charset="utf-8">
   <title>Lyndon Renaud</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <style>
+    @media (prefers-color-scheme: dark){
 
-  <link rel="stylesheet" href="css/main.css" type="text/css" media="all">
-  
+    }
+  </style>
+  <script src="js/invert.js"></script>
+  <script src="js/home_color_switch.js"></script>
   </head>
   <body>
     <div id="wrapper">
-      <header class="home">
-        <h1>Lyndon Renaud</h2>
-        <span class="navbar">
-          / <a href="https://www.linkedin.com/in/lyndon-renaud-b85a79158/"><img src="images/linkedin-logo.png"></a> /
+      <header>
+        <h1>Lyndon Renaud</h1>
+        <span id="navbar">
+          <img src="images/darkmode.png" id="color_mode_button" onclick="switch_color_mode()"></img> /
+          <a href="https://www.linkedin.com/in/lyndon-renaud-b85a79158/"><img src="images/linkedin-logo.png"></a> /
           <a href="https://github.com/lynren"><img src="images/github.png"></a> /
           <a href="resume.html">resume</a> /
           <a href="">projects</a> 
         </span>
       </header>
     
-    <article>
-      <p>Hello! I'm a 21 year old, 3rd year undergrad Computer Science student at the <a href="http://www.uwindsor.ca/" target="blank">University of Windsor</a>.
-        This is my personal website, and thus contains information about me, including links to my accounts on other services. I currently work at the University of Windsor 
+    <main>
+      <p id="main">Hello! I'm a 21 year old, 3rd year undergrad Computer Science student at the <a href="http://www.uwindsor.ca/" target="blank">University of Windsor</a>.
+        This is my personal website, and thus contains information about me, including links to my accounts on other services. I currently work part-time at the University of Windsor 
       in IT Support. If you would like to contact me, I can be reached at <a href="mailto:lyndonrenaud98@protonmail.com">lyndonrenaud98@protonmail.com</a>
     or by phone at <a href="tel:+12262468057">+1226-246-8057</a>.</p>
-    </article>
+
+      <!--<p>Constantly learning new technologies, and creating solutions for problems - old or new.</p>-->
+      </main>
 </div>
-
-
 </body></html>

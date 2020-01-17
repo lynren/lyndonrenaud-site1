@@ -7,7 +7,6 @@ html {
 body {
   font-weight: 400;
   background-color: #fcfcfc;
-  color: #222;
   margin: 0;
   min-height: 100%; min-height: 100vh;
 }
@@ -22,18 +21,6 @@ header {
   display: block;
   font-weight: 400; letter-spacing: -0.035rem;
   padding: 10px 0;
-  color: black;
-}
-
-header a:link, header a:visited {
-  text-decoration: none;
-  /* color: #8071b8; */
-  color: #b41017;
-}
-
-header a:hover {
-  text-decoration: underline #060609;
-  color: #060609;
 }
 
 header span.back-arrow {
@@ -78,21 +65,6 @@ article {
   letter-spacing: -0.035rem;
 }
 
-article a:link {
-  color: black;
-  border-bottom: 1px solid grey;
-  text-decoration: none;
-}
-
-article a:visited {
-  color: #555;
-}
-
-article a:hover {
-  color: red;
-  border-bottom-color: gray;
-}
-
 .clearfix {
   clear: both;
 }
@@ -121,4 +93,23 @@ header, article{
 }
 p{
   margin: 0;
+}
+
+body{
+  background-color: #fcfcfc;
+}
+
+a{
+  color: #b41017;
+  text-decoration: none;
+}
+
+a:hover{
+  border-bottom: 1px solid #b41017;
+}
+
+header img{
+  width: 2em;
+  height: 1.8em;
+  margin-right: 1em;
 }

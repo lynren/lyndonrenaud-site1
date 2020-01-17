@@ -77,9 +77,8 @@ h3{
   border-bottom: 1px solid grey;
   width: 100%;
 }
-h4.date{
+p.date{
   float: right;
-  font-weight: normal;
 }
 ul{
   margin-top: 0.2em;

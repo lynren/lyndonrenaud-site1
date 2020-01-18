@@ -71,6 +71,6 @@ a{
   text-decoration: none;
 }
 
-a:hover, img:hover{
+a:hover{
   border-bottom: 1px solid #b41017;
 }

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>Projects</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1"> 
+  <link rel="stylesheet" href="css/projects.css" type="text/css">
+  <script src="js/invert.js" type="text/javascript"></script>
+  <script src="js/project_color_switch.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <h1>Lyndon Renaud</h1>
+        <span id="navbar">
+          <img src="images/darkmode.png" id="color_mode_button" onclick="switch_color_mode()"></img> /
+          <a href="https://www.linkedin.com/in/lyndon-renaud-b85a79158/"><img src="images/linkedin-logo.png"></a> /
+          <a href="https://github.com/lynren"><img src="images/github.png"></a> /
+          <a href="resume.html">resume</a> /
+          <a href="index.html">home</a> 
+        </span>
+      </header>
+    
+    <main>
+      <h2>Projects</h2>
+      <hr>
+      <p id="main">This page contains a few programming projects I've worked on. I've also done
+        <a href="graphics.html">graphic design</a>.
+      </p>
+
+      <article>
+        <p class="date">01/20</p>
+        <h3>Personal Website</h3>
+        <a id="a1" href="http://lyndonrenaud.com">lyndonrenaud.com</a>
+        <p>This project actually refers to this website. I designed it to work well with
+          variable screen sizes. For the best viewing experience, the site should be 
+          used on a portrait screen orientation. The site uses <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b>
+           technologies.</p>
+      </article>
+
+      <article>
+        <p class="date">08/18 - 11/18</p>
+        <h3>AWS MySql Database & API</h3>
+        <p id="a2">In my Intro to Software Engineering class, I was tasked with creating a database 
+          for my team's android app. This database held image files which were to be served to
+          the android app. To do this, I used a <b>MySQL</b> database hosted on <b>AWS RDS</b>. 
+          For database access, I created a <b>Java</b> Maven project and stored it on <b>AWS 
+          Lambda</b>. This Lambda function was then triggered using <b>AWS API Gateway</b>. To 
+          connect the database to the Android app, I created an iterator class in Java which
+          retrieved image URLs from the database. This iterator class was then implemented into 
+          the app.<br>For more info, check out the project on <a href="https://github.com/lynren/311-AWS-Database">Github</a>!</p>
+      </article>
+
+      <article>
+        <p class="date">10/19 - 11/19</p>
+        <h3>Pokemon Go Website</h3>
+        <a id="a3" target="blank" href="http://renau11s.myweb.cs.uwindsor.ca/comp2707/pogo/index.html">Pokemon Go Site</a>
+        <p id="a4">Pokemon Go Website is a responsive website containing information for the mobile game, 
+          <i>Pokemon Go</i>. It uses <b>HTML</b>, <b>CSS</b>, and <b>Javascript</b>. Check it out on my <a target="blank" href="https://github.com/lynren/pogo-website">
+          GitHub</a>!</p>
+      </article>
+      <hr>
+    </main>
+    <p>TODO: add more projects</p>
+</div>
+</body></html>

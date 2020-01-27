@@ -5,6 +5,11 @@ function invert_images(percentage){
     }
 }
 
+function invert_image(elem_id, percentage){
+   var elem = document.getElementById(elem_id);
+   elem.style.filter = "invert(" + percentage + ")";
+}
+
 function invert_links(elem_id, color){
     var elem = document.getElementById(elem_id);
     for(let i = 0; i < elem.childNodes.length; ++i){

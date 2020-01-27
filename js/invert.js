@@ -13,3 +13,8 @@ function invert_links(elem_id, color){
         }
     }
 }
+
+function invert_parent(elem_id, color){
+    var elem = document.getElementById(elem_id);
+    elem.style.color = color;
+}

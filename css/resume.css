@@ -19,7 +19,7 @@ body {
 
 header {
   display: block;
-  font-weight: 400; letter-spacing: -0.035rem;
+  font-weight: 400;
   padding: 10px 0;
 }
 
@@ -34,20 +34,14 @@ header span.navbar {
   font-weight: 700; letter-spacing: -0.035rem;
 }
 
-header span.navbar img{
-  height: 1.3rem;
-}
-
 header .back-to-home {
   display: inline-block;
   margin-left: -20px;
 }
 
 h1 {
-	letter-spacing: -0.1rem;
   font-size: 3.35rem;
   line-height: 3.5rem;
-  width: 87%;
 	margin-bottom: 0.5em;
 	font-kerning: auto;
 }
@@ -107,7 +101,7 @@ a:hover{
   border-bottom: 1px solid #b41017;
 }
 
-header img{
+header img.menu{
   width: 2em;
   height: 1.8em;
   margin-right: 1em;
@@ -118,3 +112,41 @@ body {
   -ms-text-size-adjust: 100%; 
   -moz-text-size-adjust: 100%; 
   -webkit-text-size-adjust: 100%;}
+
+
+a{
+   text-decoration: none;
+   color: black;
+ }
+ 
+ h4.sub{
+   color: black;
+ }
+ 
+ ul.menu h4, ul.menu li{
+   display: inline;
+ }
+ 
+ ul.menu{
+   margin:1em auto 0 auto;
+   width: 90%;
+   display: inline-block;
+ }
+ 
+ a.line{
+   border-right: 1px solid grey;
+   padding-right: 0.25em;
+ }
+
+ article img{
+   height: 1em;
+   padding-right: 0.2em;
+ }
+
+ h3{
+    margin-bottom: 0.2em;
+ }
+
+ img.back{
+    height: 0.8em;
+ }

@@ -4,61 +4,91 @@
     <title>Resume</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/resume.css" type="text/css" media="all">
-    <script src="js/invert.js"></script>
-    <script src="js/resume_color_switch.js"></script>
+    <!--<script src="js/invert.js"></script>
+    <script src="js/resume_color_switch.js"></script>-->
 </head>
 
 <body>
 <div id="wrapper">
-<header>
-<a href="./index.html"><img src="images/home.png"></a>
-<img src="images/darkmode.png" id="color_mode_button" onclick="switch_color_mode()"></img>
-<br>
-<a id="hire" href="mailto:lyndonrenaud98@protonmail.com"><h2 class="date">Hire Me!</h2></a>
-<h2>Lyndon Renaud</h2>
-<hr>
-<p id="p1" style="float: right;"><a href="https://github.com/lynren">Github</a><br>
-<a href="https://www.linkedin.com/in/lyndon-renaud-b85a79158/">LinkedIn</a></p>
-<p id="p2">Windsor ON, Canada<br>
-<a href="mailto:lyndonrenaud98@protonmail.com">lyndonrenaud98@protonmail.com</a></p>
-</header>
-
-<article>
-<h3>PROFILE OF SKILLS</h3>
-<ul>
-    <li><p>Firm understanding of <b>Java, Python, SQL, Javascript, HTML, CSS, and object-oriented design</b></p></p></li>
-    <li><p>Familiar with <b>C, C++, Bash, x86 Assembly, Git, node.js, and AWS</b></p></li>
-    <li><p>Experience in working with Windows and Linux Environments</p></li>
-</ul>
-</article>
-
-<article>
-<h3>EDUCATION</h3>
-<p class="date">2016 - Present</p>
-<h4>Bachelor of Science, Honours Computer Science with Co-op</h4>
-<p>University of Windsor - Windsor, ON</p>
-<br>
-<p><b>Relevant courses:</b> Java, C++, Object-Oriented Analysis & Design, Intro to Software Engineering, Network Security</p>
-</article>
-
-<article>
-<h3>EXPERIENCE</h3>
-<p class="date">January 2019 - May 2019</p>
-<h4>Canada Revenue Agency - IT Analyst</h4>
-<p>CRA/CBSA - Windsor, ON</p>
-<ul>
-    <li><p>Responsible for monitoring help desk tickets and responding to them efficiently</p></li>
-    <li><p>Successfully advanced End User Replacement project with efficient setup of new equipment and working closely with end-users during data backup and restore stages</p></li>
-</ul>
-<br>
-<p class="date">September 2019 - Present</p>
-<h4>University of Windsor - IT Support</h4>
-<p>Y2K20 Project Member - Windsor, ON</p>
-<ul>
-    <li><p>Responsible for upgrading client machines from Windows 7 to Windows 10</p></li>
-    <li><p>Worked with <b>Azure Active Directory</b> to manage organization assets</p></li>
-</ul>
-</article>
+   <header>
+      <a href="index.html"><img class="back" src="images/back.png"> Home</a>
+<!--<a href="./index.html"><img class="menu" src="images/home.png"></a>
+<img class="menu" src="images/darkmode.png" id="color_mode_button" onclick="switch_color_mode()"></img>-->
+   <h1 style="font-size: 3.35em;" align="center">Lyndon Renaud</h1>
+   <ul class="menu">
+       <a href="tel:+12262468057" class="line"><li><h4 class="sub">+1 226-246-8057</h4></li></a>
+       <a href="mailto:renau11s@uwindsor.ca" class="line"><li><h4 class="sub">renau11s@uwindsor.ca</h4></li></a>
+       <a href="https://github.com/lynren" class="line"><li><img style="height: 0.9em; margin-bottom: -0.1em" src="https://i.imgur.com/w78TacE.png"></li></a>
+       <a href="https://www.linkedin.com/in/lyndon-renaud-b85a79158/" class="line"><li><img style="height: 0.9em; margin-bottom: -.11em;" src="https://i.imgur.com/i431flV.png"></li></a>
+       <a><li><h4 class="sub">Windsor, ON, Canada</h4></li></a>
+   </ul>
+   <hr>
+   </header>
+   
+   <article>
+   <h3>PROFILE OF SKILLS</h3>
+   <ul>
+       <li><p>Firm understanding of <b>Java, Python, SQL, Javascript, HTML, CSS, and object-oriented design</b></p></p></li>
+       <li><p>Familiar with <b>C, C++, Bash, x86 Assembly, Git, node.js, and AWS</b></p></li>
+       <li><p>Experience in working with Windows and Linux Environments</p></li>
+   </ul>
+   </article>
+   
+   <article>
+   <h3>EDUCATION</h3>
+   <p class="date">2016 - Present</p>
+   <h4>B.C.S in Computer Science (Honours)</h4>
+   <p>University of Windsor - Windsor, ON</p>
+   <br>
+   <p><b>Relevant courses:</b> Java, C/C++, Data Structures & Algorithms, Object-Oriented Analysis & Design, Intro to Software Engineering, Network Security, Database Management Systems, Advanced Web Design</p>
+   <br>
+   </article>
+   
+   <article>
+   <h3>PROJECTS</h3>
+   <p class="date">08/18 - 11/18</p>
+   <a href="https://github.com/lynren/311-AWS-Database"><h4><img src="https://i.imgur.com/oWvXfez.png">MySQL Database & API</h4></a>
+   <ul>
+       <li><p>Used AWS RDS and AWS EC2 to host a MySQL database</p></li>
+       <li><p>Worked with AWS Lambda and AWS API Gateway to write a database API in Java</p></li>
+       <li><p>Worked in a team to integrate the database into our team's android application</p></li>
+   </ul>
+   <br>
+   <p class="date">10/18 - 12/18</p>
+   <a href="https://github.com/lynren/pogo-website"><h4><img src="https://i.imgur.com/oWvXfez.png">Pokemon Go Website</h4></a>
+   <ul>
+       <li><p>Uses HTML, CSS, and JavaScript technologies</p></li>
+       <li><p>Designed to be responsive</p></li>
+       <li><p>Provides accessibility features by making us of alt text</p></li>
+   </ul>
+   <br>
+   <p class="date">01/20</p>
+   <a href="https://lyndonrenaud.com"><h4><img src="images/web.png" style="width: 2.5em; height: auto; margin-bottom: -.2em; margin-left: -1.5em;">lyndonrenaud.com</h4></a>
+   <ul>
+     <li><p>Written with HTML, CSS, JavaScript</p></li>
+     <li><p>Hosted on Github Pages</p>
+   </ul>
+   
+   </article>
+   
+   <article>
+   <h3>EXPERIENCE</h3>
+   <p class="date">01/19 - 04/19</p>
+   <h4>Canada Revenue Agency - IT Analyst</h4>
+   <p>CRA/CBSA - Windsor, ON</p>
+   <ul>
+       <li><p>Responsible for monitoring help desk tickets and responding to them efficiently</p></li>
+       <li><p>Successfully advanced End User Replacement project with efficient setup of new equipment and working closely with end-users during data backup and restore stages</p></li>
+   </ul>
+   <br>
+   <p class="date">09/19 - Present</p>
+   <h4>University of Windsor - IT Support</h4>
+   <p>Y2K20 Project Member - Windsor, ON</p>
+   <ul>
+       <li><p>Responsible for upgrading client machines from Windows 7 to Windows 10</p></li>
+       <li><p>Worked with <b>Azure Active Directory</b> to manage organization assets</p></li>
+   </ul>
+   </article>
 </div>
 </body>
 </html>
